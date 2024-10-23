@@ -1,0 +1,49 @@
+/* User Story 1 and 2: Styling the container and body */
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#time-display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#start-stop-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#lap-reset-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
+
+#laps li {
+    margin: 5px 0;
+}
